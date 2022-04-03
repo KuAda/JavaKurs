@@ -1,0 +1,17 @@
+package day14_stringManipulations;
+
+public class C01_trim {
+    public static void main(String[] args) {
+
+        String str="  Siz ne derseniz deyin, Java bildigini okur.  ";
+        str.trim();
+        System.out.println(str); //  Siz ne derseniz deyin, Java bildigini okur. bosluklu
+        System.out.println(str.length());
+
+        str=str.trim();
+        System.out.println(str);//Siz ne derseniz deyin, Java bildigini okur.
+        System.out.println(str.length());
+
+
+    }
+}
